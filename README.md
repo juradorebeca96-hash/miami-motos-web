@@ -1,2 +1,13 @@
-# miami-motos-web
-git init git add . git commit -m "Miami Motos web" git branch -M main git remote add origin https://github.com/TU_USUARIO/miami-motos-web.git git push -u origin main
+# Miami Motos — Web + Panel Online (Supabase)
+
+## Local
+```bash
+npm install
+cp .env.example .env
+# completar VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY
+npm run dev
+```
+
+## Deploy (Vercel)
+- Build command: npm run build
+- Output directory: dist
